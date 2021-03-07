@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    style="@style/Theme.IndoTour"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="top"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageView
+                    android:id="@+id/img_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:srcCompat="@drawable/nusa_penida"
+                    android:foreground="#66000000"
+                    android:scaleType="centerCrop"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_nama_tempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/nama_tempat"
+            android:textSize="22sp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:layout_marginTop="12dp"
+            style="@style/TextColor.Header"/>
+
+        <TextView
+            android:id="@+id/tv_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/lokasi"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_reg"
+            android:drawablePadding="5dp"
+            android:elegantTextHeight="true"
+            style="@style/TextColor.Accent"/>
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            tools:text="4.5"
+            app:drawableStartCompat="@drawable/ic_baseline_star_rate_14"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_reg"
+            android:textSize="13sp"
+            android:elegantTextHeight="true"
+            style="@style/TextColor.Body"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsi"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_medium"
+            style="@style/TextColor.Header"/>
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="12sp"
+            tools:text="Isi deskripsi"
+            android:fontFamily="@font/poppins_reg"
+            style="@style/TextColor.Body"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">INDOTOUR</string>
+    <string name="nama_tempat">Nama Tempat</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="nama">Raffly Gafar Pohan</string>
+    <string name="email">rafflypohan17@gmail.com</string>
+    <string name="info">Aplikasi ini merupakan Submission untuk menyelesaikan kelas Belajar Membuat Aplikasi Android Pemula di Dicoding.</string>
+</resources>
