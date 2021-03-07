@@ -29,7 +29,7 @@
     </style>
 
     <style name="CardBackgrund" parent="">
-        <item name="android:backgroundTint">@color/gray_light</item>
+        <item name="android:backgroundTint">@color/light_gray</item>
     </style>
 
 </resources>
